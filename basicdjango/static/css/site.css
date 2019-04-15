@@ -1,0 +1,73 @@
+
+#hometitle {
+  text-align: center;
+  color: #00FFFF;
+}
+
+#firstword {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#wisimg {
+  background-image: url(../wisconsin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  font-size: 100px;
+  text-align: center;
+  color: #DE1738;
+}
+a:link.brewers {
+  text-align: center;
+  color: #0000FF;
+}
+a:hover.brewers { color: #008080; }
+
+a:link.marquette {
+  text-align: center;
+  color: #FFD700;
+}
+a:hover.marquette { color: #008080; }
+
+a:link.bucks {
+  align-items: center;
+  color: #008000;
+}
+a:hover.bucks { color: #008080; }
+
+#titlebucks {
+  color: #008080;
+  border-style: solid;
+  border-width: 2px;
+  border-color: blue;
+}
+#firstpara {
+  font-family: Arial;
+}
+#secondpara {
+  font-family: Helvetica;
+}
+#titlemarquette {
+  color: #FFD700;
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+#firstparagraphmarquette {
+  font-family: sans-serif;
+}
+#secondparagraphmarquette {
+  font-family: serif;
+}
+#titlebrewers {
+  color: #0000FF;
+  border-style: solid;
+  border-color: blue;
+  border-width: 2px;
+}
+#firstparagraphbrewers {
+  font-family: palatino;
+}
+#secondparagraphbrewers {
+  font-family: impact;
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1 color="red"> ! ! ERROR ! ! </h1><br><br>
+  <h3>The following errors have occured during calculation.</h3><br>
+  
+  <ul>
+    {% for error, message in replDict.items %}
+      <li>{{message}}</li><br>
+    {% endfor %}
+  </ul><br>
+  
+  <p>Please try submitting the correct required information.</p><br>
+
+  <a href='/'>Home</a>
+
+{% endblock content %}

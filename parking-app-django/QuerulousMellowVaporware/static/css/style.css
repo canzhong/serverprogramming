@@ -1,0 +1,9 @@
+body {
+    background: whitesmoke;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.RedMono {
+  color: crimson;
+  font-family: Sans Mono;
+}

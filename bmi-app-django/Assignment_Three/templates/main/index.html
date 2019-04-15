@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Welcome to the BMI Calculator</h1>
+  <form action="" method="post">
+    {%csrf_token%}
+  Name : <input type="text" name="name" id="name"/><br><br>
+  Weight : <input type="text" name="weight" id="weight"/><br><br>
+  HeightFt : <input type="text" name="heightft" id="heightft"/>
+  HeightIn : <input type="text" name="heightin" id="heightin"/><br><br><br>
+  <input type="submit"/><br>
+  </form>
+{% endblock content %}

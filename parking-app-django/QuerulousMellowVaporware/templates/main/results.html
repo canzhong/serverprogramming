@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <table>
+    <tr><th>Date : Time</th><th>Location</th></tr>
+    {% for i in tickets %}
+    <tr>
+      <td><div class="datetime RedMono">{{i.0}}</td>
+      <td>{{i.1}}</td>
+    </tr>
+    {% endfor %}
+  </table><br><br>
+  <a href='/'>Home</a>
+{% endblock content %}
